@@ -63,7 +63,7 @@ var dbConn *sql.DB
 //
 func init() {
 	plugins.RegisterPlugin("mysql_backend", mysqlBackend6, mysqlBackend4)
-	dbConn, err = sql.Open("mysql", fmt.Sprintf("%s:%s/@tcp(%s)/%s", DB_USER, DB_PASS, DB_HOST, DB_NAME))
+	dbConn, _ := sql.Open("mysql", fmt.Sprintf("%s:%s/@tcp(%s)/%s", DB_USER, DB_PASS, DB_HOST, DB_NAME))
 }
 
 // mysqlBackend6 is the setup function to initialize the handler for DHCPv6

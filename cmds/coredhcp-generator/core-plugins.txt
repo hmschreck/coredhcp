@@ -1,2 +1,5 @@
 github.com/hmschreck/coredhcp/plugins/mysql_backend
 github.com/coredhcp/coredhcp/plugins/router
+github.com/coredhcp/coredhcp/plugins/dns
+github.com/coredhcp/coredhcp/plugins/lease_time
+github.com/coredhcp/coredhcp/plugins/netmask

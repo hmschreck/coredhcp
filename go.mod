@@ -1,10 +1,10 @@
-module github.com/coredhcp/coredhcp
+module github.com/hmschreck/coredhcp
 
 go 1.12
 
 require (
 	github.com/chappjc/logrus-prefix v0.0.0-20180227015900-3a1d64819adb
-	github.com/coredhcp/plugins v0.0.0-20191121175107-a201c0b24a48
+	github.com/github/plugins v0.0.0-20191121175107-a201c0b24a48
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/golangci/golangci-lint v1.21.0 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible
